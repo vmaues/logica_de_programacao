@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Validação de acesso</title>
+
+<style>
+body
+
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px
+}
+input, button 
+{
+    padding: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+#mensagem 
+{
+    font-wright: bold;
+    margin-top: 20px;
+}
+
+</style>
+</head>
+
+  <h1>Validação de acesso</h1>
+
+<input
+    type="text"
+    id="nome"
+    placeholder="digite seu nome" />
+
+<input
+    type="number"
+    id="idade"
+    placeholder="digite sua idade" />
+<br/>
+
+<button
+    oneclick="validaracesso()">Verificar Acesso</button>
+
+<div id="mensagem"></div>
+
+<script>
+function ValidarAcesso() {
+    const nome= document.getElelementById('nome').value.trim();
+    const idade= document.getElelementById('idade').value;
+    const mensagem= document.getElelementById('mensagem');
+
+idade
+}
+
+</script>
+
+</body>
+</html>
